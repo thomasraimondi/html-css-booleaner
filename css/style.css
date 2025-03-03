@@ -50,15 +50,10 @@ section > div {
 .header-page {
   background-color: rgb(77 161 255);
   background-image: url("../img/pattern.png");
-  height: 200px;
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: flex-end;
 }
 
 .img-logo {
   height: 100px;
-  align-items: flex-end;
   margin-top: 100px;
 }
 
