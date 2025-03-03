@@ -1,0 +1,80 @@
+:root {
+  --marginleft: 0px;
+}
+
+.header-page {
+  background-color: rgb(77 161 255);
+  background-image: url("../img/pattern.png");
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-content: flex-end;
+}
+
+.img-logo {
+  height: 100px;
+  align-items: flex-end;
+}
+
+h1 {
+  font-size: 50px;
+  margin-bottom: 0px;
+}
+
+address {
+  font-style: normal;
+  color: rgb(152 152 152);
+}
+
+a {
+  text-decoration: none;
+  color: rgb(87 170 193);
+}
+
+figure {
+  margin-left: var(--marginleft);
+}
+
+/* Da Verificare */
+ul {
+  margin-left: var(--marginleft);
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+thead {
+  background-color: rgb(33 168 228);
+  color: white;
+}
+
+.highligh-cell {
+  background-color: rgb(177 229 242);
+}
+
+section > span {
+  color: rgb(152 152 152);
+}
+
+section > div {
+  margin-top: 10px;
+}
+
+.computer {
+  color: white;
+  font-size: 30px;
+  background-image: url("../img/monitor.jpg");
+  width: 312px;
+  height: 208px;
+}
+
+.graph {
+  color: white;
+  font-size: 30px;
+  background-image: url("../img/graph.jpg");
+  width: 312px;
+  height: 208px;
+}
